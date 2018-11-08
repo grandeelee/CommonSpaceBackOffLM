@@ -1,0 +1,72 @@
+2018-09-19 20:38:31,307 - tensorflow - INFO - Epoch: 1 Learning rate: 1.000
+2018-09-19 20:38:31,639 - tensorflow - INFO - 0.000 cost: 91.940 speed: 2411 wps
+2018-09-19 20:38:35,576 - tensorflow - INFO - 0.100 cost: 68.016 speed: 24646 wps
+2018-09-19 20:38:39,567 - tensorflow - INFO - 0.200 cost: 67.843 speed: 25377 wps
+2018-09-19 20:38:43,592 - tensorflow - INFO - 0.300 cost: 66.437 speed: 25560 wps
+2018-09-19 20:38:47,608 - tensorflow - INFO - 0.400 cost: 67.190 speed: 25668 wps
+2018-09-19 20:38:51,698 - tensorflow - INFO - 0.500 cost: 65.947 speed: 25639 wps
+2018-09-19 20:38:55,714 - tensorflow - INFO - 0.600 cost: 67.196 speed: 25698 wps
+2018-09-19 20:38:59,716 - tensorflow - INFO - 0.700 cost: 68.702 speed: 25752 wps
+2018-09-19 20:39:03,690 - tensorflow - INFO - 0.800 cost: 68.991 speed: 25817 wps
+2018-09-19 20:39:07,721 - tensorflow - INFO - 0.900 cost: 70.593 speed: 25826 wps
+2018-09-19 20:39:11,720 - tensorflow - INFO - Epoch: 1 Train Perplexity: 3.375
+2018-09-19 20:39:13,043 - tensorflow - INFO - Epoch: 1 Valid Perplexity: 3.263
+2018-09-19 20:39:13,044 - tensorflow - INFO - Epoch: 2 Learning rate: 1.000
+2018-09-19 20:39:13,070 - tensorflow - INFO - 0.000 cost: 65.382 speed: 31177 wps
+2018-09-19 20:39:17,073 - tensorflow - INFO - 0.100 cost: 65.985 speed: 26114 wps
+2018-09-19 20:39:21,084 - tensorflow - INFO - 0.200 cost: 68.711 speed: 26069 wps
+2018-09-19 20:39:25,230 - tensorflow - INFO - 0.300 cost: 64.933 speed: 25767 wps
+2018-09-19 20:39:29,208 - tensorflow - INFO - 0.400 cost: 65.745 speed: 25884 wps
+2018-09-19 20:39:33,079 - tensorflow - INFO - 0.500 cost: 64.899 speed: 26095 wps
+2018-09-19 20:39:37,059 - tensorflow - INFO - 0.600 cost: 67.251 speed: 26117 wps
+2018-09-19 20:39:40,973 - tensorflow - INFO - 0.700 cost: 68.455 speed: 26195 wps
+2018-09-19 20:39:44,930 - tensorflow - INFO - 0.800 cost: 67.900 speed: 26218 wps
+2018-09-19 20:39:48,863 - tensorflow - INFO - 0.900 cost: 69.353 speed: 26254 wps
+2018-09-19 20:39:52,843 - tensorflow - INFO - Epoch: 2 Train Perplexity: 3.313
+2018-09-19 20:39:54,091 - tensorflow - INFO - Epoch: 2 Valid Perplexity: 3.243
+2018-09-19 20:39:54,092 - tensorflow - INFO - Epoch: 3 Learning rate: 1.000
+2018-09-19 20:39:54,117 - tensorflow - INFO - 0.000 cost: 65.593 speed: 31814 wps
+2018-09-19 20:39:58,048 - tensorflow - INFO - 0.100 cost: 64.712 speed: 26592 wps
+2018-09-19 20:40:01,978 - tensorflow - INFO - 0.200 cost: 67.530 speed: 26580 wps
+2018-09-19 20:40:06,152 - tensorflow - INFO - 0.300 cost: 65.404 speed: 26037 wps
+2018-09-19 20:40:09,950 - tensorflow - INFO - 0.400 cost: 66.450 speed: 26384 wps
+2018-09-19 20:40:13,817 - tensorflow - INFO - 0.500 cost: 64.173 speed: 26504 wps
+2018-09-19 20:40:17,784 - tensorflow - INFO - 0.600 cost: 67.046 speed: 26473 wps
+2018-09-19 20:40:21,914 - tensorflow - INFO - 0.700 cost: 67.717 speed: 26296 wps
+2018-09-19 20:40:25,690 - tensorflow - INFO - 0.800 cost: 66.681 speed: 26457 wps
+2018-09-19 20:40:29,334 - tensorflow - INFO - 0.900 cost: 69.165 speed: 26684 wps
+2018-09-19 20:40:33,171 - tensorflow - INFO - Epoch: 3 Train Perplexity: 3.297
+2018-09-19 20:40:34,344 - tensorflow - INFO - Epoch: 3 Valid Perplexity: 3.235
+2018-09-19 20:40:34,604 - tensorflow - INFO - Model saved in path: tmp/model_300_unk_100c/model.ckpt-7830
+2018-09-19 20:40:34,605 - tensorflow - INFO - Epoch: 4 Learning rate: 1.000
+2018-09-19 20:40:34,631 - tensorflow - INFO - 0.000 cost: 65.398 speed: 31354 wps
+2018-09-19 20:40:38,381 - tensorflow - INFO - 0.100 cost: 64.969 speed: 27862 wps
+2018-09-19 20:40:42,226 - tensorflow - INFO - 0.200 cost: 67.498 speed: 27505 wps
+2018-09-19 20:40:46,074 - tensorflow - INFO - 0.300 cost: 64.525 speed: 27378 wps
+2018-09-19 20:40:49,455 - tensorflow - INFO - 0.400 cost: 64.695 speed: 28177 wps
+2018-09-19 20:40:52,752 - tensorflow - INFO - 0.500 cost: 63.887 speed: 28810 wps
+2018-09-19 20:40:56,110 - tensorflow - INFO - 0.600 cost: 66.950 speed: 29166 wps
+2018-09-19 20:40:59,362 - tensorflow - INFO - 0.700 cost: 67.294 speed: 29552 wps
+2018-09-19 20:41:02,721 - tensorflow - INFO - 0.800 cost: 68.097 speed: 29734 wps
+2018-09-19 20:41:05,974 - tensorflow - INFO - 0.900 cost: 68.754 speed: 29979 wps
+2018-09-19 20:41:09,314 - tensorflow - INFO - Epoch: 4 Train Perplexity: 3.289
+2018-09-19 20:41:10,316 - tensorflow - INFO - Epoch: 4 Valid Perplexity: 3.226
+2018-09-19 20:41:10,317 - tensorflow - INFO - Epoch: 5 Learning rate: 1.000
+2018-09-19 20:41:10,341 - tensorflow - INFO - 0.000 cost: 64.058 speed: 33189 wps
+2018-09-19 20:41:13,537 - tensorflow - INFO - 0.100 cost: 64.124 speed: 32673 wps
+2018-09-19 20:41:16,804 - tensorflow - INFO - 0.200 cost: 67.227 speed: 32311 wps
+2018-09-19 20:41:20,088 - tensorflow - INFO - 0.300 cost: 64.856 speed: 32135 wps
+2018-09-19 20:41:23,481 - tensorflow - INFO - 0.400 cost: 65.153 speed: 31783 wps
+2018-09-19 20:41:26,749 - tensorflow - INFO - 0.500 cost: 63.923 speed: 31816 wps
+2018-09-19 20:41:29,964 - tensorflow - INFO - 0.600 cost: 66.302 speed: 31924 wps
+2018-09-19 20:41:33,125 - tensorflow - INFO - 0.700 cost: 67.286 speed: 32076 wps
+2018-09-19 20:41:36,275 - tensorflow - INFO - 0.800 cost: 67.748 speed: 32206 wps
+2018-09-19 20:41:39,441 - tensorflow - INFO - 0.900 cost: 68.564 speed: 32290 wps
+2018-09-19 20:41:42,616 - tensorflow - INFO - Epoch: 5 Train Perplexity: 3.282
+2018-09-19 20:41:43,571 - tensorflow - INFO - Epoch: 5 Valid Perplexity: 3.224
+2018-09-19 20:41:43,572 - tensorflow - INFO - Epoch: 6 Learning rate: 1.000
+2018-09-19 20:41:43,595 - tensorflow - INFO - 0.000 cost: 64.276 speed: 34681 wps
+2018-09-19 20:41:46,775 - tensorflow - INFO - 0.100 cost: 64.515 speed: 32851 wps
+2018-09-19 20:41:49,977 - tensorflow - INFO - 0.200 cost: 67.346 speed: 32728 wps
+2018-09-19 20:41:51,359 - tensorflow - INFO - Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Enqueue operation was cancelled
+	 [[Node: Train/TrainInput/input_producer/input_producer_EnqueueMany = QueueEnqueueManyV2[Tcomponents=[DT_INT32], timeout_ms=-1, _device="/job:localhost/replica:0/task:0/device:CPU:0"](Train/TrainInput/input_producer, Train/TrainInput/input_producer/range/_9)]]

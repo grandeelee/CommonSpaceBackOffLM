@@ -1,0 +1,220 @@
+2018-09-18 21:19:27,728 - tensorflow - INFO - Epoch: 1 Learning rate: 1.000
+2018-09-18 21:19:27,729 - tensorflow - INFO - Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Enqueue operation was cancelled
+	 [[Node: Valid/ValidInput/input_producer/input_producer_EnqueueMany = QueueEnqueueManyV2[Tcomponents=[DT_INT32], timeout_ms=-1, _device="/job:localhost/replica:0/task:0/device:CPU:0"](Valid/ValidInput/input_producer, Valid/ValidInput/input_producer/range/_29)]]
+2018-09-18 21:20:45,913 - tensorflow - INFO - Epoch: 1 Learning rate: 1.000
+2018-09-18 21:20:45,913 - tensorflow - INFO - Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Enqueue operation was cancelled
+	 [[Node: Train/TrainInput/input_producer/input_producer_EnqueueMany = QueueEnqueueManyV2[Tcomponents=[DT_INT32], timeout_ms=-1, _device="/job:localhost/replica:0/task:0/device:CPU:0"](Train/TrainInput/input_producer, Train/TrainInput/input_producer/range/_19)]]
+2018-09-18 21:21:44,721 - tensorflow - INFO - Epoch: 1 Learning rate: 1.000
+2018-09-18 21:21:45,215 - tensorflow - INFO - 0.001 perplexity: 16246.708 speed: 2839 wps
+2018-09-18 21:21:50,540 - tensorflow - INFO - 0.101 perplexity: 258.331 speed: 18167 wps
+2018-09-18 21:21:55,840 - tensorflow - INFO - 0.201 perplexity: 60.183 speed: 18887 wps
+2018-09-18 21:22:01,075 - tensorflow - INFO - 0.300 perplexity: 32.714 speed: 19219 wps
+2018-09-18 21:22:06,354 - tensorflow - INFO - 0.400 perplexity: 23.082 speed: 19350 wps
+2018-09-18 21:22:11,582 - tensorflow - INFO - 0.500 perplexity: 18.349 speed: 19467 wps
+2018-09-18 21:22:16,858 - tensorflow - INFO - 0.600 perplexity: 15.605 speed: 19517 wps
+2018-09-18 21:22:22,130 - tensorflow - INFO - 0.700 perplexity: 13.797 speed: 19554 wps
+2018-09-18 21:22:27,376 - tensorflow - INFO - 0.800 perplexity: 12.530 speed: 19595 wps
+2018-09-18 21:22:32,661 - tensorflow - INFO - 0.900 perplexity: 11.600 speed: 19610 wps
+2018-09-18 21:22:37,948 - tensorflow - INFO - Epoch: 1 Train Perplexity: 10.882
+2018-09-18 21:22:39,895 - tensorflow - INFO - Epoch: 1 Valid Perplexity: 4.544
+2018-09-18 21:22:39,896 - tensorflow - INFO - Epoch: 2 Learning rate: 1.000
+2018-09-18 21:22:39,967 - tensorflow - INFO - 0.001 perplexity: 5.676 speed: 19814 wps
+2018-09-18 21:22:45,270 - tensorflow - INFO - 0.101 perplexity: 5.838 speed: 19670 wps
+2018-09-18 21:22:50,643 - tensorflow - INFO - 0.201 perplexity: 5.754 speed: 19541 wps
+2018-09-18 21:22:55,980 - tensorflow - INFO - 0.300 perplexity: 5.691 speed: 19542 wps
+2018-09-18 21:23:01,354 - tensorflow - INFO - 0.400 perplexity: 5.626 speed: 19508 wps
+2018-09-18 21:23:06,668 - tensorflow - INFO - 0.500 perplexity: 5.574 speed: 19532 wps
+2018-09-18 21:23:11,959 - tensorflow - INFO - 0.600 perplexity: 5.534 speed: 19562 wps
+2018-09-18 21:23:17,264 - tensorflow - INFO - 0.700 perplexity: 5.498 speed: 19576 wps
+2018-09-18 21:23:22,625 - tensorflow - INFO - 0.800 perplexity: 5.469 speed: 19561 wps
+2018-09-18 21:23:27,987 - tensorflow - INFO - 0.900 perplexity: 5.446 speed: 19549 wps
+2018-09-18 21:23:33,232 - tensorflow - INFO - Epoch: 2 Train Perplexity: 5.418
+2018-09-18 21:23:35,061 - tensorflow - INFO - Epoch: 2 Valid Perplexity: 3.948
+2018-09-18 21:23:35,062 - tensorflow - INFO - Epoch: 3 Learning rate: 1.000
+2018-09-18 21:23:35,136 - tensorflow - INFO - 0.001 perplexity: 5.157 speed: 19055 wps
+2018-09-18 21:23:40,491 - tensorflow - INFO - 0.101 perplexity: 5.088 speed: 19471 wps
+2018-09-18 21:23:45,845 - tensorflow - INFO - 0.201 perplexity: 5.052 speed: 19475 wps
+2018-09-18 21:23:51,159 - tensorflow - INFO - 0.300 perplexity: 5.033 speed: 19525 wps
+2018-09-18 21:23:56,539 - tensorflow - INFO - 0.400 perplexity: 5.013 speed: 19491 wps
+2018-09-18 21:24:01,841 - tensorflow - INFO - 0.500 perplexity: 4.991 speed: 19527 wps
+2018-09-18 21:24:07,190 - tensorflow - INFO - 0.600 perplexity: 4.979 speed: 19522 wps
+2018-09-18 21:24:12,529 - tensorflow - INFO - 0.700 perplexity: 4.959 speed: 19524 wps
+2018-09-18 21:24:17,856 - tensorflow - INFO - 0.800 perplexity: 4.948 speed: 19531 wps
+2018-09-18 21:24:23,192 - tensorflow - INFO - 0.900 perplexity: 4.941 speed: 19532 wps
+2018-09-18 21:24:28,520 - tensorflow - INFO - Epoch: 3 Train Perplexity: 4.930
+2018-09-18 21:24:30,353 - tensorflow - INFO - Epoch: 3 Valid Perplexity: 3.719
+2018-09-18 21:24:31,040 - tensorflow - INFO - Model saved in path: tmp/backoff_with_class_t_plus_1/model.ckpt-4473
+2018-09-18 21:24:31,041 - tensorflow - INFO - Epoch: 4 Learning rate: 1.000
+2018-09-18 21:24:31,107 - tensorflow - INFO - 0.001 perplexity: 4.718 speed: 21281 wps
+2018-09-18 21:24:36,389 - tensorflow - INFO - 0.101 perplexity: 4.757 speed: 19766 wps
+2018-09-18 21:24:41,649 - tensorflow - INFO - 0.201 perplexity: 4.749 speed: 19797 wps
+2018-09-18 21:24:46,919 - tensorflow - INFO - 0.300 perplexity: 4.743 speed: 19795 wps
+2018-09-18 21:24:52,226 - tensorflow - INFO - 0.400 perplexity: 4.726 speed: 19760 wps
+2018-09-18 21:24:55,659 - tensorflow - INFO - Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Enqueue operation was cancelled
+	 [[Node: Train/TrainInput/input_producer/input_producer_EnqueueMany = QueueEnqueueManyV2[Tcomponents=[DT_INT32], timeout_ms=-1, _device="/job:localhost/replica:0/task:0/device:CPU:0"](Train/TrainInput/input_producer, Train/TrainInput/input_producer/range/_9)]]
+2018-09-18 21:36:34,766 - tensorflow - INFO - Epoch: 1 Learning rate: 1.000
+2018-09-18 21:36:35,202 - tensorflow - INFO - 0.001 perplexity: 16251.376 speed: 3219 wps
+2018-09-18 21:36:40,714 - tensorflow - INFO - 0.101 perplexity: 196.932 speed: 17773 wps
+2018-09-18 21:36:46,255 - tensorflow - INFO - 0.201 perplexity: 51.543 speed: 18279 wps
+2018-09-18 21:36:51,773 - tensorflow - INFO - 0.300 perplexity: 29.309 speed: 18481 wps
+2018-09-18 21:36:57,273 - tensorflow - INFO - 0.400 perplexity: 21.163 speed: 18599 wps
+2018-09-18 21:37:02,802 - tensorflow - INFO - 0.500 perplexity: 17.094 speed: 18651 wps
+2018-09-18 21:37:08,352 - tensorflow - INFO - 0.600 perplexity: 14.691 speed: 18675 wps
+2018-09-18 21:37:13,825 - tensorflow - INFO - 0.700 perplexity: 13.083 speed: 18728 wps
+2018-09-18 21:37:19,356 - tensorflow - INFO - 0.800 perplexity: 11.956 speed: 18744 wps
+2018-09-18 21:37:24,921 - tensorflow - INFO - 0.900 perplexity: 11.118 speed: 18744 wps
+2018-09-18 21:37:30,438 - tensorflow - INFO - Epoch: 1 Train Perplexity: 10.466
+2018-09-18 21:37:30,576 - tensorflow - INFO - Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Enqueue operation was cancelled
+	 [[Node: Train/TrainInput/input_producer/input_producer_EnqueueMany = QueueEnqueueManyV2[Tcomponents=[DT_INT32], timeout_ms=-1, _device="/job:localhost/replica:0/task:0/device:CPU:0"](Train/TrainInput/input_producer, Train/TrainInput/input_producer/range/_9)]]
+2018-09-18 21:39:37,294 - tensorflow - INFO - Epoch: 1 Learning rate: 1.000
+2018-09-18 21:39:37,715 - tensorflow - INFO - 0.001 perplexity: 16295.043 speed: 3327 wps
+2018-09-18 21:39:43,166 - tensorflow - INFO - 0.101 perplexity: 185.213 speed: 18002 wps
+2018-09-18 21:39:48,610 - tensorflow - INFO - 0.201 perplexity: 49.977 speed: 18558 wps
+2018-09-18 21:39:54,053 - tensorflow - INFO - 0.300 perplexity: 28.757 speed: 18755 wps
+2018-09-18 21:39:59,510 - tensorflow - INFO - 0.400 perplexity: 20.868 speed: 18843 wps
+2018-09-18 21:40:04,912 - tensorflow - INFO - 0.500 perplexity: 16.909 speed: 18933 wps
+2018-09-18 21:40:10,315 - tensorflow - INFO - 0.600 perplexity: 14.572 speed: 18994 wps
+2018-09-18 21:40:15,762 - tensorflow - INFO - 0.700 perplexity: 12.998 speed: 19016 wps
+2018-09-18 21:40:21,207 - tensorflow - INFO - 0.800 perplexity: 11.889 speed: 19033 wps
+2018-09-18 21:40:26,668 - tensorflow - INFO - 0.900 perplexity: 11.064 speed: 19040 wps
+2018-09-18 21:40:32,089 - tensorflow - INFO - Epoch: 1 Train Perplexity: 10.423
+2018-09-18 21:40:34,077 - tensorflow - INFO - Epoch: 1 Valid Perplexity: 4.505
+2018-09-18 21:40:34,078 - tensorflow - INFO - Epoch: 2 Learning rate: 1.000
+2018-09-18 21:40:34,154 - tensorflow - INFO - 0.001 perplexity: 5.739 speed: 18466 wps
+2018-09-18 21:40:39,529 - tensorflow - INFO - 0.101 perplexity: 5.815 speed: 19391 wps
+2018-09-18 21:40:44,964 - tensorflow - INFO - 0.201 perplexity: 5.728 speed: 19292 wps
+2018-09-18 21:40:50,381 - tensorflow - INFO - 0.300 perplexity: 5.667 speed: 19279 wps
+2018-09-18 21:40:55,832 - tensorflow - INFO - 0.400 perplexity: 5.598 speed: 19242 wps
+2018-09-18 21:41:01,262 - tensorflow - INFO - 0.500 perplexity: 5.544 speed: 19236 wps
+2018-09-18 21:41:06,629 - tensorflow - INFO - 0.600 perplexity: 5.506 speed: 19268 wps
+2018-09-18 21:41:12,045 - tensorflow - INFO - 0.700 perplexity: 5.472 speed: 19267 wps
+2018-09-18 21:41:17,462 - tensorflow - INFO - 0.800 perplexity: 5.445 speed: 19265 wps
+2018-09-18 21:41:22,923 - tensorflow - INFO - 0.900 perplexity: 5.423 speed: 19247 wps
+2018-09-18 21:41:28,314 - tensorflow - INFO - Epoch: 2 Train Perplexity: 5.401
+2018-09-18 21:41:30,166 - tensorflow - INFO - Epoch: 2 Valid Perplexity: 3.937
+2018-09-18 21:41:30,168 - tensorflow - INFO - Epoch: 3 Learning rate: 1.000
+2018-09-18 21:41:30,242 - tensorflow - INFO - 0.001 perplexity: 5.013 speed: 18942 wps
+2018-09-18 21:41:35,703 - tensorflow - INFO - 0.101 perplexity: 5.082 speed: 19098 wps
+2018-09-18 21:41:41,067 - tensorflow - INFO - 0.201 perplexity: 5.046 speed: 19269 wps
+2018-09-18 21:41:46,483 - tensorflow - INFO - 0.300 perplexity: 5.024 speed: 19265 wps
+2018-09-18 21:41:51,952 - tensorflow - INFO - 0.400 perplexity: 5.000 speed: 19216 wps
+2018-09-18 21:41:57,390 - tensorflow - INFO - 0.500 perplexity: 4.976 speed: 19209 wps
+2018-09-18 21:42:02,818 - tensorflow - INFO - 0.600 perplexity: 4.968 speed: 19210 wps
+2018-09-18 21:42:08,235 - tensorflow - INFO - 0.700 perplexity: 4.951 speed: 19216 wps
+2018-09-18 21:42:13,664 - tensorflow - INFO - 0.800 perplexity: 4.941 speed: 19216 wps
+2018-09-18 21:42:19,092 - tensorflow - INFO - 0.900 perplexity: 4.936 speed: 19216 wps
+2018-09-18 21:42:24,490 - tensorflow - INFO - Epoch: 3 Train Perplexity: 4.928
+2018-09-18 21:42:26,337 - tensorflow - INFO - Epoch: 3 Valid Perplexity: 3.699
+2018-09-18 21:42:27,301 - tensorflow - INFO - Model saved in path: tmp/backoff_with_class_t_plus_1/model.ckpt-4473
+2018-09-18 21:42:27,303 - tensorflow - INFO - Epoch: 4 Learning rate: 1.000
+2018-09-18 21:42:27,379 - tensorflow - INFO - 0.001 perplexity: 4.669 speed: 18468 wps
+2018-09-18 21:42:32,841 - tensorflow - INFO - 0.101 perplexity: 4.766 speed: 19086 wps
+2018-09-18 21:42:38,241 - tensorflow - INFO - 0.201 perplexity: 4.753 speed: 19199 wps
+2018-09-18 21:42:43,645 - tensorflow - INFO - 0.300 perplexity: 4.746 speed: 19232 wps
+2018-09-18 21:42:49,077 - tensorflow - INFO - 0.400 perplexity: 4.729 speed: 19224 wps
+2018-09-18 21:42:54,556 - tensorflow - INFO - 0.500 perplexity: 4.711 speed: 19187 wps
+2018-09-18 21:42:59,922 - tensorflow - INFO - 0.600 perplexity: 4.705 speed: 19228 wps
+2018-09-18 21:43:05,375 - tensorflow - INFO - 0.700 perplexity: 4.695 speed: 19213 wps
+2018-09-18 21:43:10,844 - tensorflow - INFO - 0.800 perplexity: 4.691 speed: 19196 wps
+2018-09-18 21:43:16,292 - tensorflow - INFO - 0.900 perplexity: 4.692 speed: 19190 wps
+2018-09-18 21:43:21,677 - tensorflow - INFO - Epoch: 4 Train Perplexity: 4.686
+2018-09-18 21:43:23,549 - tensorflow - INFO - Epoch: 4 Valid Perplexity: 3.601
+2018-09-18 21:43:23,551 - tensorflow - INFO - Epoch: 5 Learning rate: 1.000
+2018-09-18 21:43:23,625 - tensorflow - INFO - 0.001 perplexity: 4.700 speed: 18802 wps
+2018-09-18 21:43:29,051 - tensorflow - INFO - 0.101 perplexity: 4.595 speed: 19218 wps
+2018-09-18 21:43:31,903 - tensorflow - INFO - Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Enqueue operation was cancelled
+	 [[Node: Valid/ValidInput/input_producer/input_producer_EnqueueMany = QueueEnqueueManyV2[Tcomponents=[DT_INT32], timeout_ms=-1, _device="/job:localhost/replica:0/task:0/device:CPU:0"](Valid/ValidInput/input_producer, Valid/ValidInput/input_producer/range/_29)]]
+2018-09-18 21:44:29,243 - tensorflow - INFO - Restoring parameters from tmp/backoff_with_class_t_plus_1/model.ckpt-4473
+2018-09-18 21:48:29,499 - tensorflow - INFO - Test Perplexity: 3.722
+2018-09-19 20:30:29,049 - tensorflow - INFO - Epoch: 1 Learning rate: 1.000
+2018-09-19 20:30:29,543 - tensorflow - INFO - 0.001 perplexity: 16500.369 speed: 2841 wps
+2018-09-19 20:30:34,931 - tensorflow - INFO - 0.101 perplexity: 664.195 speed: 17972 wps
+2018-09-19 20:30:40,344 - tensorflow - INFO - 0.201 perplexity: 196.570 speed: 18594 wps
+2018-09-19 20:30:45,716 - tensorflow - INFO - 0.300 perplexity: 113.357 speed: 18859 wps
+2018-09-19 20:30:51,055 - tensorflow - INFO - 0.400 perplexity: 82.276 speed: 19023 wps
+2018-09-19 20:30:56,370 - tensorflow - INFO - 0.500 perplexity: 66.317 speed: 19140 wps
+2018-09-19 20:31:01,792 - tensorflow - INFO - 0.600 perplexity: 56.919 speed: 19156 wps
+2018-09-19 20:31:07,139 - tensorflow - INFO - 0.700 perplexity: 50.506 speed: 19205 wps
+2018-09-19 20:31:12,605 - tensorflow - INFO - 0.800 perplexity: 45.941 speed: 19189 wps
+2018-09-19 20:31:17,972 - tensorflow - INFO - 0.900 perplexity: 42.548 speed: 19216 wps
+2018-09-19 20:31:23,383 - tensorflow - INFO - Epoch: 1 Train Perplexity: 39.892
+2018-09-19 20:31:25,289 - tensorflow - INFO - Epoch: 1 Valid Perplexity: 17.343
+2018-09-19 20:31:25,290 - tensorflow - INFO - Epoch: 2 Learning rate: 1.000
+2018-09-19 20:31:25,362 - tensorflow - INFO - 0.001 perplexity: 20.208 speed: 19569 wps
+2018-09-19 20:31:30,734 - tensorflow - INFO - 0.101 perplexity: 21.280 speed: 19416 wps
+2018-09-19 20:31:36,158 - tensorflow - INFO - 0.201 perplexity: 21.030 speed: 19323 wps
+2018-09-19 20:31:41,512 - tensorflow - INFO - 0.300 perplexity: 20.701 speed: 19375 wps
+2018-09-19 20:31:46,960 - tensorflow - INFO - 0.400 perplexity: 20.431 speed: 19317 wps
+2018-09-19 20:31:52,395 - tensorflow - INFO - 0.500 perplexity: 20.233 speed: 19292 wps
+2018-09-19 20:31:57,824 - tensorflow - INFO - 0.600 perplexity: 20.088 speed: 19278 wps
+2018-09-19 20:32:03,163 - tensorflow - INFO - 0.700 perplexity: 19.914 speed: 19315 wps
+2018-09-19 20:32:08,576 - tensorflow - INFO - 0.800 perplexity: 19.745 speed: 19309 wps
+2018-09-19 20:32:13,948 - tensorflow - INFO - 0.900 perplexity: 19.618 speed: 19321 wps
+2018-09-19 20:32:19,322 - tensorflow - INFO - Epoch: 2 Train Perplexity: 19.479
+2018-09-19 20:32:21,150 - tensorflow - INFO - Epoch: 2 Valid Perplexity: 14.845
+2018-09-19 20:32:21,151 - tensorflow - INFO - Epoch: 3 Learning rate: 1.000
+2018-09-19 20:32:21,225 - tensorflow - INFO - 0.001 perplexity: 17.445 speed: 18943 wps
+2018-09-19 20:32:26,553 - tensorflow - INFO - 0.101 perplexity: 17.955 speed: 19567 wps
+2018-09-19 20:32:31,999 - tensorflow - INFO - 0.201 perplexity: 17.900 speed: 19360 wps
+2018-09-19 20:32:37,405 - tensorflow - INFO - 0.300 perplexity: 17.768 speed: 19337 wps
+2018-09-19 20:32:42,794 - tensorflow - INFO - 0.400 perplexity: 17.614 speed: 19341 wps
+2018-09-19 20:32:48,260 - tensorflow - INFO - 0.500 perplexity: 17.506 speed: 19289 wps
+2018-09-19 20:32:53,575 - tensorflow - INFO - 0.600 perplexity: 17.444 speed: 19344 wps
+2018-09-19 20:32:59,047 - tensorflow - INFO - 0.700 perplexity: 17.372 speed: 19303 wps
+2018-09-19 20:33:04,394 - tensorflow - INFO - 0.800 perplexity: 17.287 speed: 19328 wps
+2018-09-19 20:33:09,778 - tensorflow - INFO - 0.900 perplexity: 17.235 speed: 19333 wps
+2018-09-19 20:33:15,194 - tensorflow - INFO - Epoch: 3 Train Perplexity: 17.176
+2018-09-19 20:33:17,003 - tensorflow - INFO - Epoch: 3 Valid Perplexity: 13.787
+2018-09-19 20:33:17,771 - tensorflow - INFO - Model saved in path: tmp/backoff_with_class_t_plus_1/model.ckpt-4473
+2018-09-19 20:33:17,773 - tensorflow - INFO - Epoch: 4 Learning rate: 1.000
+2018-09-19 20:33:17,845 - tensorflow - INFO - 0.001 perplexity: 15.842 speed: 19385 wps
+2018-09-19 20:33:23,271 - tensorflow - INFO - 0.101 perplexity: 16.342 speed: 19225 wps
+2018-09-19 20:33:28,698 - tensorflow - INFO - 0.201 perplexity: 16.293 speed: 19222 wps
+2018-09-19 20:33:34,184 - tensorflow - INFO - 0.300 perplexity: 16.217 speed: 19152 wps
+2018-09-19 20:33:39,601 - tensorflow - INFO - 0.400 perplexity: 16.124 speed: 19177 wps
+2018-09-19 20:33:45,003 - tensorflow - INFO - 0.500 perplexity: 16.051 speed: 19203 wps
+2018-09-19 20:33:50,442 - tensorflow - INFO - 0.600 perplexity: 16.004 speed: 19199 wps
+2018-09-19 20:33:55,820 - tensorflow - INFO - 0.700 perplexity: 15.947 speed: 19226 wps
+2018-09-19 20:34:01,226 - tensorflow - INFO - 0.800 perplexity: 15.892 speed: 19235 wps
+2018-09-19 20:34:06,644 - tensorflow - INFO - 0.900 perplexity: 15.869 speed: 19236 wps
+2018-09-19 20:34:10,506 - tensorflow - INFO - Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Enqueue operation was cancelled
+	 [[Node: Valid/ValidInput/input_producer/input_producer_EnqueueMany = QueueEnqueueManyV2[Tcomponents=[DT_INT32], timeout_ms=-1, _device="/job:localhost/replica:0/task:0/device:CPU:0"](Valid/ValidInput/input_producer, Valid/ValidInput/input_producer/range/_19)]]
+2018-09-19 20:43:38,666 - tensorflow - INFO - Epoch: 1 Learning rate: 1.000
+2018-09-19 20:43:39,233 - tensorflow - INFO - 0.001 perplexity: 16420.320 speed: 2469 wps
+2018-09-19 20:43:44,244 - tensorflow - INFO - 0.101 perplexity: 599.699 speed: 18948 wps
+2018-09-19 20:43:49,235 - tensorflow - INFO - 0.201 perplexity: 157.175 speed: 19869 wps
+2018-09-19 20:43:54,227 - tensorflow - INFO - 0.300 perplexity: 88.104 speed: 20198 wps
+2018-09-19 20:43:59,201 - tensorflow - INFO - 0.400 perplexity: 63.003 speed: 20385 wps
+2018-09-19 20:44:04,266 - tensorflow - INFO - 0.500 perplexity: 50.407 speed: 20426 wps
+2018-09-19 20:44:09,247 - tensorflow - INFO - 0.600 perplexity: 43.047 speed: 20510 wps
+2018-09-19 20:44:14,222 - tensorflow - INFO - 0.700 perplexity: 38.048 speed: 20573 wps
+2018-09-19 20:44:19,248 - tensorflow - INFO - 0.800 perplexity: 34.507 speed: 20595 wps
+2018-09-19 20:44:24,320 - tensorflow - INFO - 0.900 perplexity: 31.890 speed: 20592 wps
+2018-09-19 20:44:29,298 - tensorflow - INFO - Epoch: 1 Train Perplexity: 29.829
+2018-09-19 20:44:31,093 - tensorflow - INFO - Epoch: 1 Valid Perplexity: 12.323
+2018-09-19 20:44:31,094 - tensorflow - INFO - Epoch: 2 Learning rate: 1.000
+2018-09-19 20:44:31,159 - tensorflow - INFO - 0.001 perplexity: 14.777 speed: 21688 wps
+2018-09-19 20:44:36,154 - tensorflow - INFO - 0.101 perplexity: 15.497 speed: 20890 wps
+2018-09-19 20:44:41,104 - tensorflow - INFO - 0.201 perplexity: 15.318 speed: 20979 wps
+2018-09-19 20:44:46,030 - tensorflow - INFO - 0.300 perplexity: 15.120 speed: 21044 wps
+2018-09-19 20:44:51,037 - tensorflow - INFO - 0.400 perplexity: 14.932 speed: 20990 wps
+2018-09-19 20:44:56,009 - tensorflow - INFO - 0.500 perplexity: 14.770 speed: 20988 wps
+2018-09-19 20:45:00,973 - tensorflow - INFO - 0.600 perplexity: 14.656 speed: 20992 wps
+2018-09-19 20:45:05,998 - tensorflow - INFO - 0.700 perplexity: 14.518 speed: 20958 wps
+2018-09-19 20:45:11,032 - tensorflow - INFO - 0.800 perplexity: 14.394 speed: 20928 wps
+2018-09-19 20:45:16,029 - tensorflow - INFO - 0.900 perplexity: 14.302 speed: 20921 wps
+2018-09-19 20:45:21,007 - tensorflow - INFO - Epoch: 2 Train Perplexity: 14.193
+2018-09-19 20:45:22,673 - tensorflow - INFO - Epoch: 2 Valid Perplexity: 10.562
+2018-09-19 20:45:22,674 - tensorflow - INFO - Epoch: 3 Learning rate: 1.000
+2018-09-19 20:45:22,739 - tensorflow - INFO - 0.001 perplexity: 12.774 speed: 21581 wps
+2018-09-19 20:45:27,724 - tensorflow - INFO - 0.101 perplexity: 12.921 speed: 20933 wps
+2018-09-19 20:45:32,932 - tensorflow - INFO - 0.201 perplexity: 12.855 speed: 20472 wps
+2018-09-19 20:45:38,302 - tensorflow - INFO - 0.300 perplexity: 12.768 speed: 20112 wps
+2018-09-19 20:45:43,646 - tensorflow - INFO - 0.400 perplexity: 12.694 speed: 19960 wps
+2018-09-19 20:45:49,019 - tensorflow - INFO - 0.500 perplexity: 12.617 speed: 19848 wps
+2018-09-19 20:45:54,454 - tensorflow - INFO - 0.600 perplexity: 12.576 speed: 19736 wps
+2018-09-19 20:45:59,802 - tensorflow - INFO - 0.700 perplexity: 12.514 speed: 19702 wps
+2018-09-19 20:46:05,199 - tensorflow - INFO - 0.800 perplexity: 12.466 speed: 19654 wps
+2018-09-19 20:46:10,530 - tensorflow - INFO - 0.900 perplexity: 12.435 speed: 19645 wps
+2018-09-19 20:46:14,875 - tensorflow - INFO - Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Enqueue operation was cancelled
+	 [[Node: Train/TrainInput/input_producer/input_producer_EnqueueMany = QueueEnqueueManyV2[Tcomponents=[DT_INT32], timeout_ms=-1, _device="/job:localhost/replica:0/task:0/device:CPU:0"](Train/TrainInput/input_producer, Train/TrainInput/input_producer/range/_9)]]

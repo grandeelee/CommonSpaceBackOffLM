@@ -1,0 +1,5 @@
+2018-10-11 11:14:25,418 - tensorflow - INFO - Restoring parameters from tmp/backoff_combi_50/model.ckpt-59640
+2018-10-11 11:14:25,576 - tensorflow - INFO - Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Enqueue operation was cancelled
+	 [[Node: Train/TrainInput/input_producer/input_producer_EnqueueMany = QueueEnqueueManyV2[Tcomponents=[DT_INT32], timeout_ms=-1, _device="/job:localhost/replica:0/task:0/device:CPU:0"](Train/TrainInput/input_producer, Train/TrainInput/input_producer/range/_9)]]
+2018-10-11 11:19:28,480 - tensorflow - INFO - Restoring parameters from tmp/backoff_combi_50/model.ckpt-59640
+2018-10-11 11:22:44,559 - tensorflow - INFO - Test Perplexity: 148.634

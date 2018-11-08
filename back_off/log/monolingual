@@ -1,0 +1,2 @@
+2018-10-11 11:10:09,904 - tensorflow - INFO - Restoring parameters from tmp/backoff_combi_100/model.ckpt-59640
+2018-10-11 11:11:30,656 - tensorflow - INFO - Test Perplexity: 138.000

@@ -1,0 +1,38 @@
+2018-09-19 20:26:44,459 - tensorflow - INFO - Epoch: 1 Learning rate: 1.000
+2018-09-19 20:26:44,806 - tensorflow - INFO - 0.000 cost: 78.455 speed: 2302 wps
+2018-09-19 20:26:48,690 - tensorflow - INFO - 0.100 cost: 65.537 speed: 24862 wps
+2018-09-19 20:26:52,512 - tensorflow - INFO - 0.200 cost: 62.925 speed: 26027 wps
+2018-09-19 20:26:56,395 - tensorflow - INFO - 0.300 cost: 60.689 speed: 26307 wps
+2018-09-19 20:27:00,239 - tensorflow - INFO - 0.400 cost: 62.591 speed: 26514 wps
+2018-09-19 20:27:04,099 - tensorflow - INFO - 0.500 cost: 57.902 speed: 26619 wps
+2018-09-19 20:27:07,973 - tensorflow - INFO - 0.600 cost: 61.198 speed: 26673 wps
+2018-09-19 20:27:11,779 - tensorflow - INFO - 0.700 cost: 66.404 speed: 26779 wps
+2018-09-19 20:27:15,749 - tensorflow - INFO - 0.800 cost: 58.879 speed: 26717 wps
+2018-09-19 20:27:19,736 - tensorflow - INFO - 0.900 cost: 59.515 speed: 26657 wps
+2018-09-19 20:27:23,445 - tensorflow - INFO - Epoch: 1 Train Perplexity: 3.055
+2018-09-19 20:27:24,632 - tensorflow - INFO - Epoch: 1 Valid Perplexity: 2.898
+2018-09-19 20:27:24,633 - tensorflow - INFO - Epoch: 2 Learning rate: 1.000
+2018-09-19 20:27:24,658 - tensorflow - INFO - 0.000 cost: 56.658 speed: 31785 wps
+2018-09-19 20:27:28,488 - tensorflow - INFO - 0.100 cost: 62.566 speed: 27292 wps
+2018-09-19 20:27:32,396 - tensorflow - INFO - 0.200 cost: 57.821 speed: 26999 wps
+2018-09-19 20:27:36,213 - tensorflow - INFO - 0.300 cost: 60.415 speed: 27115 wps
+2018-09-19 20:27:40,076 - tensorflow - INFO - 0.400 cost: 56.096 speed: 27094 wps
+2018-09-19 20:27:43,875 - tensorflow - INFO - 0.500 cost: 58.100 speed: 27170 wps
+2018-09-19 20:27:47,716 - tensorflow - INFO - 0.600 cost: 58.616 speed: 27172 wps
+2018-09-19 20:27:51,370 - tensorflow - INFO - 0.700 cost: 64.614 speed: 27362 wps
+2018-09-19 20:27:55,578 - tensorflow - INFO - 0.800 cost: 57.907 speed: 27015 wps
+2018-09-19 20:27:59,627 - tensorflow - INFO - 0.900 cost: 59.517 speed: 26873 wps
+2018-09-19 20:28:03,593 - tensorflow - INFO - Epoch: 2 Train Perplexity: 3.001
+2018-09-19 20:28:05,167 - tensorflow - INFO - Epoch: 2 Valid Perplexity: 3.164
+2018-09-19 20:28:05,168 - tensorflow - INFO - Epoch: 3 Learning rate: 1.000
+2018-09-19 20:28:05,205 - tensorflow - INFO - 0.000 cost: 59.907 speed: 21629 wps
+2018-09-19 20:28:09,674 - tensorflow - INFO - 0.100 cost: 61.678 speed: 23351 wps
+2018-09-19 20:28:13,956 - tensorflow - INFO - 0.200 cost: 56.767 speed: 23852 wps
+2018-09-19 20:28:18,255 - tensorflow - INFO - 0.300 cost: 60.056 speed: 23993 wps
+2018-09-19 20:28:22,492 - tensorflow - INFO - 0.400 cost: 55.671 speed: 24152 wps
+2018-09-19 20:28:26,514 - tensorflow - INFO - 0.500 cost: 58.590 speed: 24492 wps
+2018-09-19 20:28:30,563 - tensorflow - INFO - 0.600 cost: 60.480 speed: 24698 wps
+2018-09-19 20:28:34,860 - tensorflow - INFO - 0.700 cost: 64.467 speed: 24640 wps
+2018-09-19 20:28:39,088 - tensorflow - INFO - 0.800 cost: 57.687 speed: 24647 wps
+2018-09-19 20:28:41,388 - tensorflow - INFO - Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Enqueue operation was cancelled
+	 [[Node: Test/TestInput/input_producer/input_producer_EnqueueMany = QueueEnqueueManyV2[Tcomponents=[DT_INT32], timeout_ms=-1, _device="/job:localhost/replica:0/task:0/device:CPU:0"](Test/TestInput/input_producer, Test/TestInput/input_producer/range/_19)]]

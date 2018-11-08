@@ -1,0 +1,57 @@
+Back off model experiment results
+embedding is based on vanilla language model dimension 650
+train 83.030 valid 133.647 test 133.799
+
+learning decay = 0.8
+700 cluster :train 81.842 valid 129.103, test 129.494
+1100 cluster :train 81.482 valid 129.218 test 128.799
+1500 cluster :train 81.150 valid 128.263 test 128.423
+
+learning decay = 0.85
+too much learning cause over-fitting
+700 cluster : train 76.464 valid 130.157 test 129.914
+1100 cluster : train 75.837 valid 130.011 test 129.787
+1500 cluster : train 75.264 valid 129.366 test 129.737
+
+learning rate = max(0.8, 0.002), RNN_mask_layer = 1
+700 cluster : train 81.643 valid 129.371 test 129.395
+1100 cluster : train 80.585 valid 129.299 test 128.970
+1500 cluster : train 80.407 valid 128.888 test 128.402
+
+learning rate = max(0.8, 0.002), RNN_mask_layer = 1 multitask weight = 0.1
+1500 cluster : train 54.442 valid 128.5538 test 128.636
+
+learning rate = max(0.8, 0.002), RNN_mask_layer = 2 multitask weight = 0.13
+1500 cluster : train 48.824 valid 128.648 test 128.238
+
+embedding based on large vanilla language model
+train 74.276 valid 128.995 test 130.333
+learning rate = max(0.8, 0.002), RNN_mask_layer = 2 multitask weight = 0.13 large local 1
+1500 cluster :Epoch: 55 Train Perplexity: 59.133
+Epoch: 55 Valid Perplexity: 133.610
+Test Perplexity: 133.186
+learning rate = max(0.8, 0.002), RNN_mask_layer = 2 multitask weight = 0.12 large local
+1500 cluster :Epoch: 55 Train Perplexity: 61.926
+Epoch: 55 Valid Perplexity: 133.752
+Test Perplexity: 133.154
+learning rate = max(0.8, 0.002), RNN_mask_layer = 2 multitask weight = 0.1 large local 2
+1500 cluster :Epoch: 55 Train Perplexity: 70.058
+Epoch: 55 Valid Perplexity: 135.430
+Test Perplexity: 135.212
+FORGET ABOUT LARGE MODEL
+
+vanilla language model dimension 300 (keep with pre-trained word embeddings)
+Epoch: 13 Train Perplexity: 50.438
+Epoch: 13 Valid Perplexity: 179.605
+Test Perplexity: 179.031
+back_off 300 dimension with 900 clusters
+Epoch: 50 Train Perplexity: 130.179
+Epoch: 50 Valid Perplexity: 138.705
+Test Perplexity: 138.176
+
+change some parameter for the vanilla language model
+Epoch: 50 Train Perplexity: 113.049
+Epoch: 50 Valid Perplexity: 134.828
+Test Perplexity: 135.163
+back_off 300 dimension with 1500 clusters
+
